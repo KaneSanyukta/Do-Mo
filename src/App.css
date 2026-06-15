@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Akronim&display=swap');
+
+:root{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #2e2f39;
+}
+section{
+    width: 700px;
+    margin: 28px auto;
+    box-shadow: #714aa1 0 10px 15px -3px, #9ca3af 0 4px 6px -2px;
+    background-color:#16171d;
+    border-radius: 30px;
+}
+.heading h1{
+  font-family: "Akronim", system-ui;
+    color: #aa3bff;
+}
+.heading{
+    padding-top: 30px;
+}
+.inputBox{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputBox input{
+    font-size: x-large;
+    letter-spacing: 1.5px;
+    font-family: "Italianno", cursive;    
+    padding: 3px 12px;
+    width: 300px;
+    height: 5vh;
+    border-radius: 21px;
+    background-color: #2e303a;
+    color: #f3f4f6;
+}
+
+.inputBox input:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
+.inputBox button{
+    font-size:larger;
+    letter-spacing: 1.5px;
+    font-family: "Italianno", cursive;    
+    color: #c084fc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    background: transparent;
+}
+
+.inputBox button svg{
+    padding-left: 5px;
+    fill: #c084fc;
+
+}
+.inputBox button:hover{
+    border:2px solid #aa3bff;
+}
+
+li{
+    font-size: 25px;
+    flex-direction: row;
+    list-style: none;
+    letter-spacing: 1.5px;
+    justify-content: space-between;
+    padding: 5px 5px 5px 18px;
+    width: 450px;
+    color: #f3f4f6;
+    text-wrap: auto;
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    width: 450px;
+    align-items: center;
+    gap: 10px;
+}
+
+li:hover{
+    box-shadow: #6b6375 0 4px 6px -2px;
+
+}
+.tasks button{
+    margin-left: 12px;
+    background: transparent;
+    border: none;
+}
+.tasks button svg{
+    fill: #aa3bff;
+}
+.taskText{
+    flex: 1;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.tasks{
+    margin: 45px auto 25px;
+    width: fit-content;
+}
+.completed{
+    opacity: 0.6;
+    color: #aa3bff;
+}
